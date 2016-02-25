@@ -65,9 +65,7 @@ React UI Component - Grid(Based on Ant Design)
       desc: 'Descending'
     }
     return (
-      <div>
-        <Grid className="xxx-grid" dataSource={dataSource} columns={columns} itemActions={itemActions} gridActions={gridActions} pagination={pagination} locale={locale} uniqueId = "id"/>
-      </div>
+      <Grid className="xxx-grid" dataSource={dataSource} columns={columns} itemActions={itemActions} gridActions={gridActions} pagination={pagination} locale={locale} uniqueId = "id"/>
     )
   }
 ```
