@@ -51,7 +51,7 @@
   },
   "rules": {
     "no-console": 0,
-    "no-labels": [2],
+    "no-labels": [2, {"allowLoop": false, "allowSwitch": false}],
     "camelcase": 0,
 
     "arrow-parens": 0,

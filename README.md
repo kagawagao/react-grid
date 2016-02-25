@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/kagawagao/react-grid.svg?branch=master)](https://travis-ci.org/kagawagao/react-grid)
+[![npm](https://img.shields.io/npm/v/rc-grid.svg)](https://npmjs.org/package/rc-grid)
 [![bitHound Dependencies](https://www.bithound.io/github/kagawagao/react-grid/badges/dependencies.svg)](https://www.bithound.io/github/kagawagao/react-grid/master/dependencies/npm)
 [![bitHound Dev Dependencies](https://www.bithound.io/github/kagawagao/react-grid/badges/devDependencies.svg)](https://www.bithound.io/github/kagawagao/react-grid/master/dependencies/npm)
 [![bitHound Overall Score](https://www.bithound.io/github/kagawagao/react-grid/badges/score.svg)](https://www.bithound.io/github/kagawagao/react-grid)
