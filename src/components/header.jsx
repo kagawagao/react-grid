@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react'
-// import { Button } from 'utils/antd'
 import Button from './button'
 export default class Header extends React.Component {
   static propTypes = {

@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import { Checkbox } from 'utils/antd'
+import { Checkbox } from 'antd'
 import autobind from 'autobind-decorator'
 export default class TCheckbox extends React.Component {
   static propTypes = {
@@ -25,10 +25,10 @@ export default class TCheckbox extends React.Component {
   render () {
     const { checkable = 0 } = this.props
     return (
-      checkable ? <div className="nd-checkbox">
-                    <Checkbox onChange={this.handleChange} checked={this.props.checked}/>
-                  </div>
-                : false
-      )
+      checkable ? (
+        <div className="nd-checkbox">
+          <Checkbox onChange={this.handleChange} checked={this.props.checked}/>
+        </div>) : false
+    )
   }
 }

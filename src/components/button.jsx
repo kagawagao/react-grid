@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 import autobind from 'autobind-decorator'
-import { Button } from 'utils/antd'
+import { Button } from 'antd'
 export default class __Button extends React.Component {
   static propTypes = {
     name: PropTypes.string.isRequired,

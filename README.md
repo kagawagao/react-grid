@@ -1,5 +1,9 @@
+[![bitHound Dependencies](https://www.bithound.io/github/kagawagao/react-grid/badges/dependencies.svg)](https://www.bithound.io/github/kagawagao/react-grid/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/kagawagao/react-grid/badges/devDependencies.svg)](https://www.bithound.io/github/kagawagao/react-grid/master/dependencies/npm)
+[![bitHound Overall Score](https://www.bithound.io/github/kagawagao/react-grid/badges/score.svg)](https://www.bithound.io/github/kagawagao/react-grid)
+[![bitHound Code](https://www.bithound.io/github/kagawagao/react-grid/badges/code.svg)](https://www.bithound.io/github/kagawagao/react-grid)
 # react-grid
-React UI Component - Grid(Based on Antd Design)
+React UI Component - Grid(Based on Ant Design)
 
 ## Use
 ```javascript

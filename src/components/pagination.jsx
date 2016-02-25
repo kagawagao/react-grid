@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import { Pagination } from 'utils/antd'
+import { Pagination } from 'antd'
 import autobind from 'autobind-decorator'
 export default class GPagination extends React.Component {
   static propTypes = {
