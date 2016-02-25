@@ -1,0 +1,53 @@
+.nd-body {
+  width: 100%;
+  min-width: 470px;
+  line-height: 3;
+}
+
+.nd-row {
+  display: flex;
+  border-bottom: 1px solid #e9e9e9;
+  background-color: #ffffff;
+  padding: 11px 8px;
+  min-width: 470px;
+  -webkit-transition: background .3s ease;
+  transition: background .3s ease;
+  &:hover {
+    background: #eaf8fe
+  }
+}
+.nd-rowHeader {
+  display: flex;
+  background: #ffffff;
+  padding: 0 16px;
+  -webkit-transition: background .3s ease;
+  transition: background .3s ease;
+  justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: 1px dashed #e8eff2;
+}
+.nd-checkbox {
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.nd-data {
+  flex: 1;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nd-action {
+  flex: 1;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  .nd-actionItem {
+    color: #57c5f7;
+    cursor: pointer;
+  }
+}
