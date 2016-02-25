@@ -80,6 +80,7 @@
     "no-warning-comments": 1,
 
     "react/jsx-uses-react": 2,
-    "react/jsx-curly-spacing": 0
+    "react/jsx-curly-spacing": 0,
+    "react/jsx-no-bind": 0
   }
 }
