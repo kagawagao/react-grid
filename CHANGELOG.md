@@ -1,4 +1,6 @@
 # React-Grid
+## 0.0.8
+fix some bugs, and there are something wrong with iconfont, I'll fix it in the next version
 ## 0.0.7
 Upgrade dependencies
 ## 0.0.6

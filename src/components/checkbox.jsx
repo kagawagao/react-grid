@@ -18,6 +18,9 @@ export default class TCheckbox extends React.Component {
   @autobind
   handleChange (e, value) {
     const { uniqueId } = this.props
+    if (!value) {
+      value = !e.target.checked
+    }
     if (typeof this.props.checkboxChange === 'function') {
       this.props.checkboxChange(this.props.data ? this.props.data[uniqueId] : 'all', value)
     }
