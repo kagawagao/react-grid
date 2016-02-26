@@ -16,11 +16,11 @@ export default class RItem extends React.Component {
   render () {
     const { labelData, data, labelIndex, uniqueId, className } = this.props
     return (
-        <div className={className} key={labelIndex}>
-          <span>
-          {typeof labelData.render === 'function' ? labelData.render(data[labelData.name], data[uniqueId], data) : data[labelData.name]}
-          </span>
-        </div>
+      <div className={className} key={labelIndex}>
+        <span>
+        {typeof labelData.render === 'function' ? labelData.render(data[labelData.name], data[uniqueId], data) : data[labelData.name]}
+        </span>
+      </div>
       )
   }
 }

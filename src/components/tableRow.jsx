@@ -29,8 +29,8 @@ export default class TRow extends React.Component {
           {columns.map((labelData, labelIndex) => {
             const className = labelData.span ? `nd-data span-${labelData.span}` : 'nd-data'
             return (
-                      <RowItem key={labelIndex} className={className} labelData={labelData} labelIndex={labelIndex} data={data} uniqueId={uniqueId}/>
-                    )
+              <RowItem key={labelIndex} className={className} labelData={labelData} labelIndex={labelIndex} data={data} uniqueId={uniqueId}/>
+            )
           })}
           {itemActions.length ? (<Operation {...this.props} itemActions={itemActions} data={data}/>) : false}
         </div>

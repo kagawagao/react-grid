@@ -15,11 +15,11 @@ export default class RHead extends React.Component {
     const { data, itemHeader = [] } = this.props
     return (
       itemHeader.length > 0 ? (
-      <div className="nd-rowHeader">
-        {itemHeader.map((labelData, labelIndex) => (
-          <RHeadAction key={labelIndex} headerAction={labelData} data={data} {...this.props}/>
-          ))}
-      </div>) : false
+        <div className="nd-rowHeader">
+          {itemHeader.map((labelData, labelIndex) => (
+            <RHeadAction key={labelIndex} headerAction={labelData} data={data} {...this.props}/>
+            ))}
+        </div>) : false
       )
   }
 }
