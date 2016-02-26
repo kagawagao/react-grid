@@ -48,7 +48,11 @@ React UI Component - Grid(Based on Ant Design)
       pageChange: page => {
         // page change callback
     }
-
+    // And more
+    // checkable[boolean]: render checkbox for each item
+    // batchAction[Array]: render batch action[s] above the table
+    // itemHeader[Array]: render a header above each item
+    // the examples are coming soon
     //International
     const locale = {
       action: 'Action',
