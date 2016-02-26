@@ -3,7 +3,6 @@ import Table from './table'
 import Header from './header'
 import Pagination from './pagination'
 import autobind from 'autobind-decorator'
-import '../themes/styles/index.less'
 export default class Grid extends React.Component {
   static propTypes = {
     uniqueId: PropTypes.string,

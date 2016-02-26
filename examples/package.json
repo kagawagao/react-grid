@@ -79,7 +79,7 @@
     "koa-connect-history-api-fallback": "^0.3.0",
     "koa-convert": "^1.2.0",
     "koa-static": "^2.0.0",
-    "rc-grid": "0.0.7",
+    "rc-grid": "0.1.0",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
     "react-redux": "^4.0.0",

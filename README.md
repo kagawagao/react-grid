@@ -8,6 +8,9 @@
 React UI Component - Grid(Based on Ant Design)
 
 ## Use
+```bash
+$ npm install rc-grid --save
+```
 ```javascript
   import Grid from 'rc-grid'
 
