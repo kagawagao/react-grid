@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/kagawagao/react-grid#readme",
   "dependencies": {
-    "antd": "^0.11.3",
+    "antd": "^0.12.5",
     "autobind-decorator": "^1.3.3",
     "react": "^0.14.7"
   },
