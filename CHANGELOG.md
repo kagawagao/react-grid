@@ -1,4 +1,8 @@
 # React-Grid
+## 0.1.2
+upgrade dependencies
+## 0.1.1
+fix page error
 ## 0.1.0
 fix style bug
 ## 0.0.9

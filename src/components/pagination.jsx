@@ -31,9 +31,9 @@ export default class GPagination extends React.Component {
       prev_5: 'Previsous 5 Pages',
       prev_page: 'Previous Page'
     }
-    const { pagination, locale = defaultLocale, dataSource } = this.props
+    const { pagination, locale = defaultLocale } = this.props
     return (
-      pagination && pagination.total && pagination.size < dataSource.length ? (
+      pagination && pagination.total && pagination.size < pagination.total ? (
         <div className="nd-pagination">
           <Pagination current={pagination.currentPage} defaultCurrent={pagination.currentPage} onChange={this._handlePageChange} total={pagination.total} locale={locale} pageSize={pagination.size}/>
         </div>) : false
