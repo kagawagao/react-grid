@@ -7,6 +7,8 @@
 # react-grid
 React UI Component - Grid(Based on Ant Design)
 
+![demo](https://cloud.githubusercontent.com/assets/6930280/13353550/2462a530-dcd0-11e5-98df-0f6baa4a5210.png)
+
 ## Use
 ```bash
 $ npm install rc-grid --save
@@ -124,7 +126,8 @@ export default class HomeView extends React.Component {
         }
       }
     ]
-    // warning: the pagination depend on the total and size, not depend on the dataSource'length
+
+    // warning: the pagination depend on the total and size, not depend on the dataSource's length
     const pagination = {
       total: 100, // total count
       size: 2, // page size
@@ -134,12 +137,10 @@ export default class HomeView extends React.Component {
         console.log(page)
       }
     }
-    // And more
+
     // checkable[boolean]: render checkbox for each item
     const checkable = true
-    // batchAction[Array]: render batch action[s] above the table
-    // itemHeader[Array]: render a header above each item
-    // the examples are coming soon
+
     // International
     const locale = {
       action: 'Action',
