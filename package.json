@@ -1,6 +1,6 @@
 {
   "name": "rc-grid",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A React UI Component - Grid(Based on Ant Design)",
   "main": "lib/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/kagawagao/react-grid#readme",
   "dependencies": {
-    "antd": "^0.12.5",
+    "antd": "^0.12.12",
     "autobind-decorator": "^1.3.3",
     "react": "^0.14.7"
   },
