@@ -30,6 +30,23 @@ export default class Grid extends React.Component {
     }
   }
 
+  componentWillReceiveProps (nextProps) {
+    const checkedSet = nextProps.defaultChecked || []
+    checkedSet.forEach((item, index) => {
+      if (!item) {
+        if (typeof checkedSet.splice === 'function') {
+          checkedSet.splice(index, 1)
+        } else if (typeof checkedSet.delete === 'function') {
+          checkedSet.delete(item)
+        } else {
+          throw TypeError('defaultChecked must be Array or Set')
+        }
+      }
+    })
+    this.state = {
+      checkedSet: new Set(nextProps.defaultChecked)
+    }
+  }
   @autobind
   checkboxChange (id, value) {
     const { uniqueId } = this.props
