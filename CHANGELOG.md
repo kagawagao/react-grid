@@ -1,4 +1,6 @@
 # React-Grid
+## 0.1.6
+fix bug
 ## 0.1.4
 fix defaultChecked error
 ## 0.1.2

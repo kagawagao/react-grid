@@ -12,7 +12,7 @@ export default class Table extends Component {
   };
   constructor (props) {
     super(props)
-    const uniqueId = this.props.uniqueId
+    const uniqueId = props.uniqueId
     if (!uniqueId) {
       throw TypeError('uniqueId is not defined')
     }
