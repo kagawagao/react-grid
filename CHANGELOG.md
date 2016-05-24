@@ -1,4 +1,8 @@
 # React-Grid
+## 1.0.0
+move react to devDependencies
+## 0.1.7
+fix bug and update antd
 ## 0.1.6
 fix bug
 ## 0.1.4

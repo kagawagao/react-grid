@@ -36,7 +36,7 @@ export default class GPagination extends React.Component {
       pagination && pagination.total && pagination.size < pagination.total ? (
         <div className="nd-pagination">
           <Pagination current={pagination.currentPage} defaultCurrent={pagination.currentPage} onChange={this._handlePageChange} total={pagination.total} locale={locale} pageSize={pagination.size}/>
-        </div>) : false
+        </div>) : null
     )
   }
 }
