@@ -110,7 +110,14 @@ webpackConfig.module.loaders = [{
   loader: 'babel',
   query: {
     cacheDirectory: true,
-    plugins: ['transform-runtime'],
+    plugins: [
+      'transform-runtime',
+      'add-module-exports',
+      ['antd', {
+        style: true,
+        libraryName: 'antd'
+      }]
+    ],
     presets: ['es2015', 'react', 'stage-0'],
     env: {
       development: {
@@ -124,13 +131,21 @@ webpackConfig.module.loaders = [{
               transform: 'react-transform-catch-errors',
               imports: ['react', 'redbox-react']
             }]
+          }],
+          ['antd', {
+            style: true,
+            libraryName: 'antd'
           }]
         ]
       },
       production: {
         plugins: [
           'transform-react-remove-prop-types',
-          'transform-react-constant-elements'
+          'transform-react-constant-elements',
+          ['antd', {
+            style: true,
+            libraryName: 'antd'
+          }]
         ]
       }
     }
@@ -157,7 +172,7 @@ const PATHS_TO_TREAT_AS_CSS_MODULES = [
 // If config has CSS modules enabled, treat this project's styles as CSS modules.
 if (config.compiler_css_modules) {
   PATHS_TO_TREAT_AS_CSS_MODULES.push(
-    paths.base(config.dir_client).replace(/[\^\$\.\*\+\-\?\=\!\:\|\\\/\(\)\[\]\{\}\,]/g, '\\$&')
+    paths.base(config.dir_client).replace(/[\^\$\.\*\+\-\?=!:\|\\\/\(\)\[\]\{\},]/g, '\\$&')
   )
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
-import Grid from 'rc-grid'
+import Grid from '../../../../lib'
 // based on Ant design, so you should import this style
-import 'antd/style/index.less'
+import 'antd/lib/style/index.less'
 // the default grid style
-import 'rc-grid/style/index.less'
+import '../../../../style/index.less'
 // after above, you can import your style if need
 // import 'your-style.less'
 export default class HomeView extends React.Component {
@@ -66,8 +66,8 @@ export default class HomeView extends React.Component {
         })
         this.setState({dataSource})
       },
-      render: (created_at) => {
-        return created_at.toISOString()
+      render: (createdAt) => {
+        return createdAt.toISOString()
       },
       span: 5 // you can specific a span width to one column, from 1 to 24, default is flexible
     }]
@@ -153,7 +153,7 @@ export default class HomeView extends React.Component {
           locale={locale}
           checkable={checkable}
           itemHeader={itemHeader}
-          uniqueId='id'/>
+          uniqueId='id' />
       </div>
     )
   }
