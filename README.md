@@ -17,8 +17,6 @@ More detail - [See here](https://github.com/kagawagao/react-grid/tree/master/exa
 ```javascript
 import React from 'react'
 import Grid from 'rc-grid'
-// based on Ant design, so you should import this style
-import 'antd/style/index.less'
 // the default grid style
 import 'rc-grid/style/index.less'
 // after above, you can import your style if need
