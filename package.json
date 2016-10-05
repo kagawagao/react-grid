@@ -1,6 +1,6 @@
 {
   "name": "rc-grid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React UI Component - Grid(Based on Ant Design)",
   "main": "lib/index.js",
   "scripts": {
